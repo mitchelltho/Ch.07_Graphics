@@ -58,7 +58,14 @@ arcade.draw_line(0, 360, 500, 360, arcade.color.BLACK)
 arcade.draw_line(0, 380, 500, 380, arcade.color.BLACK)
 arcade.draw_line(0, 400, 500, 400, arcade.color.BLACK)
 
-
+arcade.draw_lrtb_rectangle_filled(20, 80, 380, 360, arcade.color.PHLOX)
+arcade.draw_ellipse_filled(100, 100, 120, 40, arcade.color.AMBER)
+arcade.draw_line(80, 20, 120, 60, arcade.color.BLUE)
+arcade.draw_rectangle_filled(460, 10, 5, 5, arcade.color.RED)
+arcade.draw_text("I love you. I know.", 20, 160, arcade.color.BRICK_RED, 20)
+arcade.draw_rectangle_filled(200, 260, 40, 20, arcade.color.BLUSH, -45)
+arcade.draw_ellipse_filled(250, 200, 80, 80, arcade.color.WISTERIA)
+arcade.draw_arc_filled()
 
 arcade.finish_render()
 arcade.run()
