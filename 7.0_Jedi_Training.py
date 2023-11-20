@@ -7,6 +7,7 @@ Recreate, exactly the Test Picture from the website. The arcade colors used in t
 BLACK, ALMOND, PHLOX, BLUSH, RED, BLUE, WISTERIA, AMBER, BRICK_RED and YELLOW.
 The picture is 500px wide and 400px tall. Look up ARC in the documentation to do the PAC-MAN.
 '''
+'''
 import arcade
 arcade.open_window(500,400,"Ch. 7 Jedi Training")
 arcade.set_background_color(arcade.color.ALMOND)
@@ -30,7 +31,7 @@ arcade.draw_arc_filled(400, 320, 120, 120, arcade.color.YELLOW, -150, 150, 180)
 
 arcade.finish_render()
 arcade.run()
-
+'''
 '''
 2. FLAG CREATION  (10pts)
 ---------------
@@ -43,6 +44,7 @@ We will have a competition to see who can make this flag in the least lines of c
 The record is 16! You will have to use some loops to achieve this.
 CHALLENGE: Can you make the entire flag parametrically? This means if I change the hoist to 520px the flag will resize accordingly.
 '''
-
+import arcade
+arcade.open_window()
 
 
