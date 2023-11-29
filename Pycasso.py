@@ -15,6 +15,7 @@ IN THE WINDOW TITLE PLEASE PUT YOUR NAME.
 When you are finished Pull Request your file to your instructor.
 '''
 import arcade
+arcade.open_window(300, 900, "Thomas Mitchell")
 
 
 
